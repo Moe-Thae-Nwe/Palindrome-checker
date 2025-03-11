@@ -1,8 +1,40 @@
+* {
+  color: #414147;
+}
+
 #check-btn {
   display: block;
   margin: 10px 0;
+  background-color: #89a5ca;
+  color: #272f39;
 }
 
 #text-input {
   display: block;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Dongle;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+label, div {
+  font-size: 30px;
+}
+
+#text-input, #check-btn {
+  font-size: 30px;
+  font-family: Dongle;
+  border: 0;
+}
+
+html {
+  background-color: #e6e6fa;
 }
